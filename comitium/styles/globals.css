@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: black;
 }
 
 a {
@@ -17,4 +18,16 @@ a {
 h1 {
   margin:0;
   color:white;
+}
+p {
+  color:white;
+  font-size:14px;
+}
+main {
+  margin-top:100px;
+}
+.pfp {
+  border-radius: 50%;
+
+  grid-column: 4;
 }

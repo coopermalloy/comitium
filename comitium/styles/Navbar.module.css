@@ -1,0 +1,35 @@
+.navbar{
+  background-color: black;
+  overflow: hidden;
+  border-bottom: 2px solid rgb(156, 156, 156);
+  z-index:2;
+  position:fixed;
+  display:flex;
+  top:0;
+  height:75px;
+  width:100%;
+
+}
+.logocontainer {
+  margin-left:20px;
+  align-self: center;
+}
+
+.actions {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap:50px;
+  margin-left:auto;
+  position:relative;
+  left:-100px;
+  align-self:center;
+}
+.icon {
+  -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+  filter: invert(100%);
+
+}
+.pfp {
+  border-radius: 50%;
+}
